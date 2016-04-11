@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>testMaven</groupId>
   <artifactId>testMaven</artifactId>
-  <version>0.0.1</version>
+  <version>1.0-SNAPSHOT</version>
   
-  <properties>
+  	<properties>
 		<jre.level>1.7</jre.level>
 		<jdk.level>1.7</jdk.level>
 	</properties>
