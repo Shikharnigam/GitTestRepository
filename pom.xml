@@ -28,11 +28,18 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+
+
+			<plugin>
+        			<groupId>org.apache.maven.plugins</groupId>
+        			<artifactId>maven-release-plugin</artifactId>
+        			<version>2.0</version>
+      			</plugin>
+    
 		</plugins>
 	</build>
 	
@@ -48,5 +55,10 @@
 			<version>6.8.7</version>
 		</dependency>
 	</dependencies>
-  
+ 	
+	<scm>
+		<connection>scm:git:git@github.com:Shikharnigam/GitTestRepository.git</connection>
+		<url>scm:git:git@github.com:Shikharnigam/GitTestRepository.git</url>
+		<developerConnection>scm:git:git@github.com:Shikharnigam/GitTestRepository.git</developerConnection>
+       </scm> 
 </project>
