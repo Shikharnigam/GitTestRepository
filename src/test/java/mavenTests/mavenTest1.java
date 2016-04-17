@@ -15,7 +15,7 @@ public class mavenTest1 {
 	@BeforeClass
 	public void testSetUp() {
 		
-		System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer_x64_2.37.0\\IEDriverServer.exe");
+		System.setProperty("webdriver.ie.driver", "D:\\Selenium setup\\IEDriverServer_x64_2.53.0\\IEDriverServer.exe");
 		driver = new InternetExplorerDriver();
 	}
 	

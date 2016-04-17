@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>testMaven</groupId>
   <artifactId>testMaven</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   
   	<properties>
 		<jre.level>1.7</jre.level>
@@ -33,20 +33,6 @@
 				</configuration>
 			</plugin>
 
-
-			<plugin>
-        			<groupId>org.apache.maven.plugins</groupId>
-        			<artifactId>maven-release-plugin</artifactId>
-        			<version>2.5.2</version>
-				<configuration>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<goals>deploy</goals>	
-					<localCheckout>true</localCheckout>
-					<pushChanges>false</pushChanges>
-				</configuration>
-      			</plugin>
-    
 		</plugins>
 	</build>
 	
@@ -65,10 +51,8 @@
  	
 	<scm>
 		<connection>scm:git:git@github.com:Shikharnigam\GitTestRepository.git</connection>
-		<url>scm:git:git@github.com:Shikharnigam\GitTestRepository.git</url>
-		<developerConnection>scm:git:git@github.com:Shikharnigam\GitTestRepository.git</developerConnection>
-         <tag>v0.0.1</tag>
-  </scm> 
+		<url>https://github.com/Shikharnigam/GitTestRepository.git</url>
+	</scm> 
 
 
 </project>
