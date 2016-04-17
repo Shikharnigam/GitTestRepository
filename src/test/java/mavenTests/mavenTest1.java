@@ -22,9 +22,11 @@ public class mavenTest1 {
 	@Test
 	public void verifyGooglePageTitle() {
 		driver.get("http://yahoo.com");
+		System.out.println("YAHOO PAGE OPENED");
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
 		Assert.assertEquals(getTitle, "Google");
+		System.out.println("GOOGLE PAGE OPENED");
 	}
 	
 	@AfterClass
